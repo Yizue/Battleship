@@ -1,0 +1,159 @@
+Starting the Battleship Server
+The Battleship Server is ready
+Sent: SRDY 1
+*** Thread client entering now for: ('127.0.0.1', 53395) ***
+Sent: SRDY 2
+*** Thread client entering now for: ('127.0.0.1', 53410) ***
+Teams ready, Going to game setup
+Received from 1: ['carrier', '7_9', '3_9', '4_9', '5_9', '6_9']
+Received from 1: ['battleship', '1_1', '1_2', '1_3', '1_4']
+Received from 1: ['cruiser', '8_3', '6_3', '7_3']
+Received from 1: ['submarine', '7_5', '7_6', '7_7']
+Received from 1: ['destroyer', '10_7', '9_7']
+Received from 2: ['carrier', '8_1', '4_1', '5_1', '6_1', '7_1']
+Received from 2: ['battleship', '5_3', '5_4', '5_5', '5_6']
+Received from 2: ['cruiser', '9_9', '7_9', '8_9']
+Received from 2: ['submarine', '9_7', '7_7', '8_7']
+Received from 2: ['destroyer', '2_7', '2_8']
+Game setup complete, beginning game
+Sent initial game state to: 1 161 bytes
+Sent initial game state to: 1 161 bytes
+Received move from: 1: 2 2_4
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 2: 1 1_1
+Sent state messages to: 1
+Sent state messages to: 2
+Received Chat message from: 1: Hello
+Sent chat messages to: 2
+Sent chat messages to: 1
+Received Chat message from: 1: How are you
+Sent chat messages to: 1
+Sent chat messages to: 2
+Received Chat message from: 1: Fine, Thank You
+Sent chat messages to: 2
+Sent chat messages to: 1
+Received move from: 1: 2 2_1
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 6_3
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 3_5
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 7_3
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 6_1
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 2: 1 8_3
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 7_1
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 2: 1 1_2
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 8_1
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 2: 1 1_3
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 9_1
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 1_4
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 5_1
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 4_2
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 4_1
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 10_6
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 7_3
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 2: 1 10_7
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 6_4
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 2: 1 8_7
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 1: 2 4_8
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 2: 1 9_7
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 6_8
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 6_9
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 5_6
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 5_9
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 5_5
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 7_9
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 5_7
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 4_9
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 1: 2 5_4
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 2: 1 8_9
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 5_3
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 3_9
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 9_7
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 7_5
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 1: 2 9_8
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 2: 1 7_6
+Sent state messages to: 2
+Sent state messages to: 1
+Received move from: 1: 2 8_7
+Sent state messages to: 1
+Sent state messages to: 2
+Received move from: 2: 1 7_7
+The game has ended.
+The winning team is: Red
+Sent state messages to: 1
+Sent state messages to: 2
+*** Thread closed for: ('127.0.0.1', 53410) ***
+Closing the Battleship Server

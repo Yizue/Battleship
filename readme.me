@@ -1,0 +1,110 @@
+Readme File for Battleship Client and Server
+
+Required:
+    Python 3
+
+Server:
+On command line:
+    cd to directory containing server.py and the server folder
+    python3 server.py
+
+    Wait for N connections from clients, where N is the number of players for the game
+    To setup the number of players, go to the server configuration file in the server/conf folder and change the
+    MAX_PLAYERS variable to the number of players
+
+Client:
+On command line:
+    cd to directory containing client.py and the client folder
+    python3 client.py
+
+    Note: Ensure that both the client and server configuration files (located in the conf/ folder) both share the same
+    same IP address for the HOST_NAME variable.
+
+    --------------------------------------------------------------------------------------------------------------
+
+    Game Interface Instructions:
+
+    Joining a game:
+
+    After pressing the Join Game button, Enter a username and select a team color, then press the OK button.
+    Afterwards wait for enough players to join in order to go to setup phase.
+
+    Game Setup:
+
+    You are prompted to select the coordinates for your 5 ships. First, you select a coordinate that will represent
+    the first endpoint of the ship.
+    Then, you must select a coordinate that is N spaces away horizontally or vertically,
+    where N is the length of the ship.
+    Ships cannot overlap previously taken coordinates that are reserved for other ships.
+    Once you select coordinates for all 5 ships, press the DONE button, and wait for all
+    players to complete their board setup.
+
+    Battleship Rules:
+
+    Each player is part of a team, and has their own 10 x 10 board where they place 5 ships horizontally or Vertically:
+    - Carrier (length of 5)
+    - Battleship (length of 4)
+    - Cruiser (length of 3)
+    - Submarine (length of 5)
+    - Destroyer (length of 2)
+
+    Each team takes their turn once each game turn, for each player in a team, they get to shoot once per game turn.
+    If a shot hits, a HIT is displayed, otherwise a MISS is displayed.
+    If a shot hits a ship and all cells of the ship have been hit, The ship has been sunk and the type of ship sunk is displayed.
+    If all 5 ships of a player has been sunk, then that player is eliminated, if all players of a team have been eliminated,
+    the team is also eliminated.
+    The game ends when only one team remains (not eliminated), they are the winners of the Battleship Game.
+
+    Battleship Game Window:
+
+    On the upper left is the display of your board, on the upper right is the display of another player's board.
+    If you wish to see another player's (either ally or enemy team) board, select a player under the other board
+    combobox and then press the OK button.
+
+        Board Color Representation:
+
+        - Gray = Not shot yet (allied board) / Unknown (enemy board)
+        - Colored = Allied ship un-hit position
+        - Red = Hit
+        - Dark Gray = Miss
+        - Black = Sunk ship
+
+        Status Text:
+
+        On the lower left text box, all game status messages will be displayed, displaying whose turn it is,
+        moves of other players, elimination of players and teams, and any error messages for the user
+
+        Making a Move:
+
+        Select a cell in the other player's board to shoot that position; a move can only be made if:
+
+        - The player is still alive
+        - It is the player's turn
+        - The other player is on an enemy team
+        - The other player is still alive
+
+    Chat Feature:
+
+    On the lower right of the game window resides the chat box.
+    Messages sent by you will be justified to the right while messages sent by everybody else will be justified to the left.
+    Messages sent by each player will be color coded by the team that player is in.
+
+        Entering a message:
+
+        Send to ALL:
+        - This sends a message to every player.
+        - Select in the first combo box "ALL". Then enter your message in the bottom label and press ENTER.
+
+        Send to ALLIES:
+        - This sends a message to your allied team players.
+        - Select in the first combo box "ALLIES".
+        - Then enter your message in the bottom label and press ENTER.
+
+        Send to ENEMY:
+        - This sends a message to a given enemy team's players, as well as your allied team players.
+        - Select in the first combo box "ENEMY".
+        - Then select in the second combo box the enemy team you wish to send the message to.
+        - Then enter your message in the bottom label and press ENTER.
+
+
+
